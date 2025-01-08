@@ -15,11 +15,11 @@ const Home = () => {
     <div>
       <section className=" relative flex flex-col items-center gap-5 text-center justify-center h-[100vh] bg-[url('/assets/alesto-hero-2.jpeg')] bg-center bg-cover text-white">
         {/* Overlay */}
-        <div className="absolute top-0  bg-deepGreen/65 backdrop-blur-lg h-[100vh] w-[100%]"></div>
+        <div className="absolute top-0  bg-deepGreen/45 backdrop-blur-lg h-[100vh] w-[100%]"></div>
         <h1
           data-aos="zoom-in"
           data-aos-delay="400"
-          className="lg:text-[3.5rem] text-4xl md:text-5xl md:w-[70%] md:leading-[4rem] lg:w-[60%] w-[85%] text-center font-semibold z-10 lg:leading-[4.5rem]"
+          className="lg:text-[3.5rem] text-5xl md:text-5xl md:w-[70%] md:leading-[4.1rem] lg:w-[60%] w-[85%] text-center font-semibold z-10 lg:leading-[4.5rem]"
         >
           Transforming <span className="text-lightGreen">Agriculture</span>, One
           <span className="text-lightGreen"> Harvest</span> at a Time
@@ -27,7 +27,7 @@ const Home = () => {
         <p
           data-aos="zoom-in"
           data-aos-delay="800"
-          className=" lg:w-[35%] md:w-[40%] w-[80%] text-sm z-10 font-light"
+          className=" lg:w-[35%] md:w-[40%] w-[80%] text-base z-10 font-light"
         >
           Providing quality farm produce, inputs, and premium Garri processing
           services.

@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <section className=" relative flex flex-col items-center gap-5 text-center justify-center h-[100vh] bg-[url('/assets/alesto-hero-2.jpeg')] bg-center bg-cover text-white">
         {/* Overlay */}
-        <div className="absolute top-0  bg-deepGreen/65 backdrop-blur-lg h-[100vh] w-[100%]"></div>
+        <div className="absolute top-0  bg-deepGreen/45 backdrop-blur-lg h-[100vh] w-[100%]"></div>
         <h1
           data-aos="zoom-in"
           className="lg:text-[3.5rem] text-4xl md:text-5xl md:w-[70%] md:leading-[4rem] lg:w-[60%] w-[85%] text-center font-semibold z-10 lg:leading-[4.5rem]"
@@ -16,7 +16,7 @@ const About = () => {
         <p
           data-aos="zoom-in"
           data-aos-delay="200"
-          className=" lg:w-[45%] md:w-[40%] w-[80%] md:text-sm  text-[0.65rem]  z-10 font-extralight md:leading-[1.7rem]"
+          className=" lg:w-[45%] md:w-[40%] w-[80%] text-sm  z-10 font-light md:leading-[1.7rem]"
         >
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of

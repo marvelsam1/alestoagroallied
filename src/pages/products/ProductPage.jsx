@@ -17,7 +17,7 @@ const ProductPage = () => {
         <p
           data-aos="zoom-in"
           data-aos-delay="200"
-          className=" lg:w-[45%] md:w-[40%] w-[80%] md:text-sm  text-[0.65rem]  z-10 font-extralight md:leading-[1.7rem]"
+          className=" lg:w-[45%] md:w-[40%] w-[80%] text-sm z-10 font-light md:leading-[1.7rem]"
         >
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
