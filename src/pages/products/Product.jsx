@@ -10,7 +10,7 @@ const Product = ({ title, icon }) => {
     <div
       data-aos="flip-left"
       data-aos-delay="200"
-      className="bg-white py-8 px-8 rounded-2xl shadow-xl w-[18rem] h-[18rem] justify-between flex flex-col items-center"
+      className="bg-white py-8 px-8 rounded-2xl shadow-xl w-[18rem] md:w-[15rem] h-[18rem] justify-between flex flex-col items-center"
     >
       <div className="flex flex-col items-center gap-2">
         <p className="text-white bg-middleGreen rounded-full p-4 text-2xl">

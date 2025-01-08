@@ -18,7 +18,7 @@ const product = [
 
 const Products = () => {
   return (
-    <section className="lg:px-24 md:px-16 px-4 py-20 flex flex-col gap-10 bg-lightGreen items-center">
+    <section className="lg:px-24 md:px-16 px-4 py-20 flex flex-col gap-5 bg-lightGreen items-center">
       <h1
         className="font-semibold lg:text-4xl text-2xl "
         data-aos="zoom-in-down"
